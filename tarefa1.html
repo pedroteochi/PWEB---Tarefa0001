@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <style>
+        
+        * {
+            font-size: larger;
+        }
+        body {
+            background-color: #FEFEFF;
+            color: white;
+        }
+        .conteiner {
+            display: flex;
+            justify-content: left;
+            width: 800px;
+            margin: auto;
+            margin-top: 100px;
+            background-color: #D9D9D9;
+        }
+        .flex-red {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            background-color: #FE7676;
+        }
+        .flex-green {
+            display: flex;
+            background-color: greenyellow;
+            width: 98%;
+            height: 30%;
+            margin: 10px;
+            color: aliceblue;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .flex-pink {
+            display: flex;
+            background-color: #FF9AF6;
+            height: 55%;
+            width: 50%;
+            margin-left: 10px;
+            color: aliceblue;
+            align-items: center;
+            justify-content: center;
+        }
+        .flex-content {
+            display: flex;
+            flex-flow: row wrap;
+            width: 60%;
+        }
+        .second-content {
+               width: 34%;
+            height: 55%;
+            margin-left: 10px;
+        }
+        .second-flex {
+            background-color: #94A2F2;
+            height: 40%;
+            width: 130%;
+            text-align: center;
+        }
+        .second-flex:first-child {
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="flex-red">
+            1
+        </div>
+        <div class="flex-content">
+            <div class="flex-green">
+                2
+            </div>
+            <div class="flex-pink">
+                3
+            </div>
+            <div class="second-content">
+                <div class="second-flex">
+                    4a
+                </div>
+                <div class="second-flex">
+                    4b
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
